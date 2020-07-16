@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 16px;
+  font-family: "Playfair Display";
+  --primary-bg: rgb(0, 27, 46);
+  --secondary-bg: rgb(41, 76, 96);
+  --tertiary-bg: rgb(51, 122, 183);
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--secondary-bg);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-bg);
+}
+
+.navbar {
+  z-index: 2;
+  width: 5rem;
+  height: 100vh;
+  background: var(--primary-bg);
+  position: fixed;
+  transition: width 200ms ease;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+  margin: 0 1.5rem;
+  color: white;
+  letter-spacing: 0.1rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.logo svg {
+  width: 2rem;
+  min-width: 2rem;
+  transform: rotate(0deg);
+  transition: all 300ms linear;
+}
+
+.navbar:hover .logo svg {
+  transform: rotate(180deg);
+}
+
+.nav-item {
+  width: 100%;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  color: white;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+.nav-link svg {
+  min-width: 2rem;
+  margin: 0 1.5rem;
+}
+
+.nav-link:hover svg {
+  color: rgb(233, 196, 106);
+}
+
+.nav-link:hover {
+  background: var(--secondary-bg);
+}
+
+.navbar:hover {
+  width: 16rem;
+}
+
+.navbar:hover .link-text {
+  display: block;
+}
+
+.link-text {
+  display: none;
+}
+
+main {
+  margin-left: 5rem;
+  max-width: calc(100vw - 5rem);
+}
+
+.gradient-block {
+  width: 100%;
+  height: 8rem;
+  background: linear-gradient(rgba(41, 76, 96, 0), var(--primary-bg));
+  position: absolute;
+  top: calc(80vh - 8rem);
+}
+
+.page-banner {
+  background: url(./images/page-banner.jpg) center/cover fixed no-repeat;
+  width: 100%;
+  height: 80vh;
+}
+
+.header-text {
+  position: relative;
+  top: 40%;
+  text-align: center;
+  font-family: "MuseoModerno";
+  text-shadow: 2px 2px 2px var(--secondary-bg);
+}
+
+.header-text h1 {
+  line-height: 4rem;
+  font-size: 5rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(120vh, auto);
+  position: relative;
+  grid-gap: 5rem;
+  margin: 5rem;
+}
+
+.wrapper > div {
+  box-shadow: -0.5rem 0.5rem 0 var(--secondary-bg);
+  border-right: 2px solid var(--primary-bg);
+  border-top: 2px solid var(--primary-bg);
+  box-sizing: border-box;
+}
+
+.wrapper img {
+  width: 90%;
+  object-fit: cover;
+  margin-top: 20%;
+  margin-left: 5%;
+  align-content: center;
+}
+
+.image-4 img {
+  margin-top: 45%;
+}
+
+.project-desc {
+  padding: 2rem 3rem 2rem 4rem;
+  color: white;
+  background: url(./images/text-bg.jpg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.project-desc h2 {
+  font-size: 1rem;
+  margin: 2rem 0;
+  font-family: "Oswald";
+}
+
+.project-desc h3 {
+  margin: 2rem 0;
+  font-size: 2rem;
+  font-family: "Roboto";
+}
+
+.project-desc p {
+  font-family: "MuseoModerno";
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+  margin: 3rem 0;
+  text-shadow: 1px 1px 1px grey;
+}
+
+#footertext {
+  text-align: center;
+  font-family: "MuseoModerno";
+  font-size: 2rem;
+  background: var(--tertiary-bg);
+  width: 80%;
+  margin: 5rem auto;
+  padding: 2rem;
+  border-radius: 2rem;
+  color: white;
+}

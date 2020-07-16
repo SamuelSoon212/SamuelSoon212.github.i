@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 16px;
+  font-family: "Playfair Display";
+  --primary-bg: rgb(0, 27, 46);
+  --secondary-bg: rgb(41, 76, 96);
+  --tertiary-bg: rgb(51, 122, 183);
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--secondary-bg);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-bg);
+}
+
+.navbar {
+  z-index: 2;
+  width: 5rem;
+  height: 100vh;
+  background: var(--primary-bg);
+  position: fixed;
+  transition: width 200ms ease;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+  margin: 0 1.5rem;
+  color: white;
+  letter-spacing: 0.1rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.logo svg {
+  width: 2rem;
+  min-width: 2rem;
+  transform: rotate(0deg);
+  transition: all 300ms linear;
+}
+
+.navbar:hover .logo svg {
+  transform: rotate(180deg);
+}
+
+.nav-item {
+  width: 100%;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  color: white;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+.nav-link svg {
+  min-width: 2rem;
+  margin: 0 1.5rem;
+}
+
+.nav-link:hover svg {
+  color: rgb(233, 196, 106);
+}
+
+.nav-link:hover {
+  background: var(--secondary-bg);
+}
+
+.navbar:hover {
+  width: 16rem;
+}
+
+.navbar:hover .link-text {
+  display: block;
+}
+
+.link-text {
+  display: none;
+}
+
+main {
+  margin-left: 5rem;
+}
+
+.page-banner {
+  background: url(./images/page-banner.jpg) center/cover fixed no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.header-text {
+  position: relative;
+  text-align: center;
+  top: 40%;
+  font-family: "MuseoModerno";
+  text-shadow: 2px 2px 2px var(--secondary-bg);
+}
+
+.header-text h1 {
+  font-size: 6rem;
+}
+
+.header-text h2 {
+  font-size: 2.5rem;
+}
+
+.gradient-block {
+  width: 100%;
+  height: 8rem;
+  background: linear-gradient(rgba(41, 76, 96, 0), var(--primary-bg));
+  position: absolute;
+  top: calc(100vh - 8rem);
+}
+
+.wrapper {
+  margin: 6rem;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  padding: 2rem;
+  grid-gap: 1rem;
+  border: 2px solid var(--secondary-bg);
+}
+
+.wrapper > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.home-about-text1 {
+  padding: 1rem 4rem 1 rem 0px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.home-about-text1 > h2 {
+  margin: 1.5rem 0px;
+  font-family: "Oswald";
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+.home-about-text1 h3 {
+  font-family: "Lato";
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.15rem;
+}
+
+.home-about-text1 p {
+  margin-top: 1rem;
+  line-height: 1.5rem;
+  word-spacing: 0.5rem;
+}
+
+.small {
+  max-width: 2rem;
+  background: red;
+  height: 2px;
+}
