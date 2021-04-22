@@ -96,6 +96,10 @@ body::-webkit-scrollbar-thumb {
   width: 16rem;
 }
 
+.navbar:hover svg {
+  width: 2.5rem;
+}
+
 .navbar:hover .link-text {
   display: block;
 }
@@ -160,20 +164,20 @@ main {
   background: white;
 }
 
-.contacts ul li:nth-child(1) span{
-background: rgb(155, 24, 79);
+.contacts ul li:nth-child(1) span {
+  background: rgb(155, 24, 79);
 }
 
-.contacts ul li:nth-child(2) span{
-background: rgb(189, 38, 18);
+.contacts ul li:nth-child(2) span {
+  background: rgb(189, 38, 18);
 }
 
-.contacts ul li:nth-child(3) span{
-background: rgb(9, 20, 31);
+.contacts ul li:nth-child(3) span {
+  background: rgb(9, 20, 31);
 }
 
-.contacts ul li:nth-child(4) span{
-background: rgb(15, 184, 0);
+.contacts ul li:nth-child(4) span {
+  background: rgb(15, 184, 0);
 }
 
 .contacts ul li span {
