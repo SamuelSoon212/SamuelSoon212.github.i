@@ -95,6 +95,10 @@ body::-webkit-scrollbar-thumb {
   width: 16rem;
 }
 
+.navbar:hover svg{
+  width: 2.5rem;
+}
+
 .navbar:hover .link-text {
   display: block;
 }
