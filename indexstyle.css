@@ -76,10 +76,11 @@ body::-webkit-scrollbar-thumb {
   color: white;
   text-decoration: none;
   transition: all 200ms ease;
+  max-width: 5rem;
 }
 
 .nav-link svg {
-  min-width: 2.5rem;
+  min-width: 2rem;
   margin: 0 1.5rem;
 }
 
@@ -95,8 +96,8 @@ body::-webkit-scrollbar-thumb {
   width: 16rem;
 }
 
-.navbar:hover svg{
-  width: 2.5rem;
+.navbar:hover svg {
+  width: 2rem;
 }
 
 .navbar:hover .link-text {
