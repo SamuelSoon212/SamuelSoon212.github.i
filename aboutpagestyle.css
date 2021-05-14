@@ -76,6 +76,7 @@ body::-webkit-scrollbar-thumb {
   color: white;
   text-decoration: none;
   transition: all 200ms ease;
+  max-width: 5rem;
 }
 
 .nav-link svg {
@@ -95,8 +96,8 @@ body::-webkit-scrollbar-thumb {
   width: 16rem;
 }
 
-.navbar:hover svg{
-  width: 2.5rem;
+.navbar:hover svg {
+  width: 2rem;
 }
 
 .navbar:hover .link-text {
@@ -143,6 +144,10 @@ main {
   color: white;
   min-height: 70vh;
   font-family: "MuseoModerno";
+}
+
+.dev-skills > h2 {
+  padding-top: 2rem;
 }
 
 .line {
