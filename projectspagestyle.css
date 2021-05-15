@@ -43,6 +43,10 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
 }
 
+#navigation:hover {
+  background: var(--primary-bg);
+}
+
 .logo {
   display: flex;
   height: 5rem;
