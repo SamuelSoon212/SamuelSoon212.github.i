@@ -1,257 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Samuel Soon - About</title>
-    <link rel="stylesheet" href="aboutpagestyle.css" />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Playfair+Display&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Oswald&family=Source+Sans+Pro&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <nav class="navbar">
-      <ul class="navbar-nav">
-        <!-- LOGO -->
-        <li class="logo">
-          <h1 class="nav-link">
-            <span class="link-text">Navigation</span>
-            <svg
-              viewBox="0 0 16 16"
-              class="bi bi-arrow-right-circle"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
-              />
-              <path
-                fill-rule="evenodd"
-                d="M7.646 11.354a.5.5 0 0 1 0-.708L10.293 8 7.646 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0z"
-              />
-              <path
-                fill-rule="evenodd"
-                d="M4.5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5z"
-              />
-            </svg>
-          </h1>
-        </li>
-        <!-- HOME -->
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">
-            <svg
-              viewBox="0 0 16 16"
-              class="bi bi-house-door-fill"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"
-              />
-              <path
-                fill-rule="evenodd"
-                d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
-              />
-            </svg>
-            <span class="link-text">Home</span>
-          </a>
-        </li>
-        <!-- ABOUT -->
-        <li class="nav-item">
-          <a href="aboutpage.html" class="nav-link">
-            <svg
-              viewBox="0 0 16 16"
-              class="bi bi-info-circle-fill"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-              />
-            </svg>
-            <span class="link-text">About</span>
-          </a>
-        </li>
-        <!-- PROJECTS -->
-        <li class="nav-item">
-          <a href="projectspage.html" class="nav-link">
-            <svg
-              viewBox="0 0 16 16"
-              class="bi bi-cpu-fill"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5A1.5 1.5 0 0 0 5 6.5v3A1.5 1.5 0 0 0 6.5 11h3A1.5 1.5 0 0 0 11 9.5v-3A1.5 1.5 0 0 0 9.5 5h-3zm0 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"
-              />
-            </svg>
-            <span class="link-text">Projects</span>
-          </a>
-        </li>
-        <!-- CONTACT -->
-        <li class="nav-item">
-          <a href="contactpage.html" class="nav-link">
-            <svg
-              viewBox="0 0 16 16"
-              class="bi bi-person-lines-fill"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm7 1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm2 9a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"
-              />
-            </svg>
-            <span class="link-text">Contact</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <main>
-      <header>
-        <div class="page-banner">
-          <div class="header-text">
-            <h1>About Me</h1>
-          </div>
-          <div class="gradient-block"></div>
-        </div>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samuel Soon - About</title>
+  <link rel="stylesheet" href="aboutpagestyle.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Playfair+Display&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Oswald&family=Source+Sans+Pro&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet" />
+</head>
 
-      <section class="aboutsection">
-        <div class="dev-skills">
-          <h2>Development Skills</h2>
-          <hr class="line" />
-          <div class="skills">
-            <div class="skill-item">
-              <div class="skill-icon">
-                <img src="./images/htmllogo.png" alt="" />
-              </div>
-              <h3>Web Dev</h3>
-              <p>
-                As for now, I am proficient in only HTML and CSS when it comes
-                to web development, however, I look forward to being able to
-                develop my skills even further with JavaScript!
-              </p>
-            </div>
-            <div class="skill-item">
-              <div class="skill-icon">
-                <img src="./images/pythonlogo.png" alt="" />
-              </div>
-              <h3>Python</h3>
-              <p>
-                As the first programming language I ever learnt, it is no doubt
-                the one I am best at. Being able to adopt concepts such as
-                classes and objects with Python, all of my projects are coded in
-                it.
-              </p>
-            </div>
-            <div class="skill-item">
-              <div class="skill-icon">
-                <img src="./images/cpplogo.png" alt="" />
-              </div>
-              <h3>C++</h3>
-              <p>
-                Although not at a level nearly as advanced as my skills in
-                Python, I am fluent with more basic things such as the syntax
-                and simple logic statements and loops.
-              </p>
-            </div>
-          </div>
+<body>
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <!-- LOGO -->
+      <li class="logo">
+        <h1 class="nav-link" id="navigation">
+          <span class="link-text">Navigation</span>
+          <svg viewBox="0 0 16 16" class="bi bi-arrow-right-circle" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+            <path fill-rule="evenodd"
+              d="M7.646 11.354a.5.5 0 0 1 0-.708L10.293 8 7.646 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0z" />
+            <path fill-rule="evenodd" d="M4.5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5z" />
+          </svg>
+        </h1>
+      </li>
+      <!-- HOME -->
+      <li class="nav-item">
+        <a href="index.html" class="nav-link">
+          <svg viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z" />
+            <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+          </svg>
+          <span class="link-text">Home</span>
+        </a>
+      </li>
+      <!-- ABOUT -->
+      <li class="nav-item">
+        <a href="aboutpage.html" class="nav-link">
+          <svg viewBox="0 0 16 16" class="bi bi-info-circle-fill" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+          </svg>
+          <span class="link-text">About</span>
+        </a>
+      </li>
+      <!-- PROJECTS -->
+      <li class="nav-item">
+        <a href="projectspage.html" class="nav-link">
+          <svg viewBox="0 0 16 16" class="bi bi-cpu-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5A1.5 1.5 0 0 0 5 6.5v3A1.5 1.5 0 0 0 6.5 11h3A1.5 1.5 0 0 0 11 9.5v-3A1.5 1.5 0 0 0 9.5 5h-3zm0 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
+          </svg>
+          <span class="link-text">Projects</span>
+        </a>
+      </li>
+      <!-- CONTACT -->
+      <li class="nav-item">
+        <a href="contactpage.html" class="nav-link">
+          <svg viewBox="0 0 16 16" class="bi bi-person-lines-fill" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm7 1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm2 9a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z" />
+          </svg>
+          <span class="link-text">Contact</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <header>
+      <div class="page-banner">
+        <div class="header-text">
+          <h1>About Me</h1>
         </div>
-      </section>
-      <section class="grids">
-        <div class="wrapper">
-          <div class="box1"><img src="./images/classphoto.jpg" alt="" /></div>
-          <div class="box2"><img src="./images/scoutphoto.jpg" alt="" /></div>
-          <div class="box3"><img src="./images/tkdphoto.jpg" alt="" /></div>
-          <div class="box4"><img src="./images/me2.jpg" alt="" /></div>
-        </div>
-      </section>
-      <section class="tkd-main">
-        <div class="tkd-header">
-          <img src="./images/hankuktkdlogo.png" alt="" />
-          <div>
-            <div class="line-sep">
-              <h2>Taekwondo</h2>
-              <hr class="line" />
+        <div class="gradient-block"></div>
+      </div>
+    </header>
+
+    <section class="aboutsection">
+      <div class="dev-skills">
+        <h2>Development Skills</h2>
+        <hr class="line" />
+        <div class="skills">
+          <div class="skill-item">
+            <div class="skill-icon">
+              <img src="./images/htmllogo.png" alt="" />
             </div>
+            <h3>Web Dev</h3>
             <p>
-              I have been doing Taekwondo ever since 2014, through the Hankuk
-              Taekwondo club, also taking it as an external CCA inside of
-              school. Being a 1st dan black belt, I have represented both my
-              primary and secondary school multiple times in interschool
-              competitions, as well as my club. I have also won numerous medals
-              in those competitions, such as the bronze medal in the National
-              Taekwondo Poomsae Championships in 2016 and 2017, the National
-              Inter-School Taekwondo Championships 2015. However, the most
-              notable achievement was having participated in the 10th Jakarta
-              Taekwondo Festival in 2014, winning the silver medal for the
-              Poomsae category.
+              As for now, I am proficient in only HTML and CSS when it comes
+              to web development, however, I look forward to being able to
+              develop my skills even further with JavaScript!
+            </p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">
+              <img src="./images/pythonlogo.png" alt="" />
+            </div>
+            <h3>Python</h3>
+            <p>
+              As the first programming language I ever learnt, it is no doubt
+              the one I am best at. Being able to adopt concepts such as
+              classes and objects with Python, all of my projects are coded in
+              it.
+            </p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">
+              <img src="./images/cpplogo.png" alt="" />
+            </div>
+            <h3>C++</h3>
+            <p>
+              Although not at a level nearly as advanced as my skills in
+              Python, I am fluent with more basic things such as the syntax
+              and simple logic statements and loops.
             </p>
           </div>
         </div>
-        <div class="tkd-image-grid">
-          <div class="tkd-box-1">
-            <img src="./images/tkdpicture1.jpg" alt="" />
+      </div>
+    </section>
+    <section class="grids">
+      <div class="wrapper">
+        <div class="box1"><img src="./images/classphoto.jpg" alt="" /></div>
+        <div class="box2"><img src="./images/scoutphoto.jpg" alt="" /></div>
+        <div class="box3"><img src="./images/tkdphoto.jpg" alt="" /></div>
+        <div class="box4"><img src="./images/me2.jpg" alt="" /></div>
+      </div>
+    </section>
+    <section class="tkd-main">
+      <div class="tkd-header">
+        <img src="./images/hankuktkdlogo.png" alt="" />
+        <div>
+          <div class="line-sep">
+            <h2>Taekwondo</h2>
+            <hr class="line" />
           </div>
-          <div class="tkd-box-2">
-            <img src="./images/tkdpicture2.jpg" alt="" />
-          </div>
-          <div class="tkd-box-3">
-            <img src="./images/tkdpicture3.jpg" alt="" />
-          </div>
+          <p>
+            I have been doing Taekwondo ever since 2014, through the Hankuk
+            Taekwondo club, also taking it as an external CCA inside of
+            school. Being a 1st dan black belt, I have represented both my
+            primary and secondary school multiple times in interschool
+            competitions, as well as my club. I have also won numerous medals
+            in those competitions, such as the bronze medal in the National
+            Taekwondo Poomsae Championships in 2016 and 2017, the National
+            Inter-School Taekwondo Championships 2015. However, the most
+            notable achievement was having participated in the 10th Jakarta
+            Taekwondo Festival in 2014, winning the silver medal for the
+            Poomsae category.
+          </p>
         </div>
-      </section>
-      <section class="scouts-main">
-        <div class="scouts-header">
-          <img src="./images/sgscoutslogo.png" alt="" />
-          <div>
-            <div class="line-sep">
-              <h2>Scouts</h2>
-              <hr class="line" />
-            </div>
-            <p>
-              In the Scouts CCA, i hold the position of Assistant Troop Scribe,
-              meaning that I help manage administrative matters and organize
-              logistics. In 2017, my patrol, Ottowa, was awarded the Best Patrol
-              Award. Further more, in 2018, I was selected to join a small team
-              of scouts that would represent the entire troop in the National
-              Patrol Camp, obtaining the bronze award.
-            </p>
-          </div>
+      </div>
+      <div class="tkd-image-grid">
+        <div class="tkd-box-1">
+          <img src="./images/tkdpicture1.jpg" alt="" />
         </div>
-        <div class="scouts-image-grid">
-          <div class="scouts-box-1">
-            <img src="./images/scoutspicture1.jpg" alt="" />
-          </div>
-          <div class="scouts-box-2">
-            <img src="./images/scoutspicture2.jpg" alt="" />
-          </div>
-          <div class="scouts-box-3">
-            <img src="./images/scoutspicture3.jpg" alt="" />
-          </div>
-          <div class="scouts-box-3">
-            <img src="./images/scoutspicture4.jpg" alt="" />
-          </div>
-          <div class="scouts-box-3">
-            <img src="./images/scoutspicture5.jpg" alt="" />
-          </div>
+        <div class="tkd-box-2">
+          <img src="./images/tkdpicture2.jpg" alt="" />
         </div>
-      </section>
-    </main>
-  </body>
+        <div class="tkd-box-3">
+          <img src="./images/tkdpicture3.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="scouts-main">
+      <div class="scouts-header">
+        <img src="./images/sgscoutslogo.png" alt="" />
+        <div>
+          <div class="line-sep">
+            <h2>Scouts</h2>
+            <hr class="line" />
+          </div>
+          <p>
+            In the Scouts CCA, i hold the position of Assistant Troop Scribe,
+            meaning that I help manage administrative matters and organize
+            logistics. In 2017, my patrol, Ottowa, was awarded the Best Patrol
+            Award. Further more, in 2018, I was selected to join a small team
+            of scouts that would represent the entire troop in the National
+            Patrol Camp, obtaining the bronze award.
+          </p>
+        </div>
+      </div>
+      <div class="scouts-image-grid">
+        <div class="scouts-box-1">
+          <img src="./images/scoutspicture1.jpg" alt="" />
+        </div>
+        <div class="scouts-box-2">
+          <img src="./images/scoutspicture2.jpg" alt="" />
+        </div>
+        <div class="scouts-box-3">
+          <img src="./images/scoutspicture3.jpg" alt="" />
+        </div>
+        <div class="scouts-box-3">
+          <img src="./images/scoutspicture4.jpg" alt="" />
+        </div>
+        <div class="scouts-box-3">
+          <img src="./images/scoutspicture5.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
