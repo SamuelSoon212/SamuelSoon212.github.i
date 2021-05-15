@@ -30,7 +30,7 @@ body::-webkit-scrollbar-thumb {
   height: 100vh;
   background: var(--primary-bg);
   position: fixed;
-  transition: width 200ms ease;
+  transition: width 300ms linear;
 }
 
 .navbar-nav {
@@ -40,6 +40,10 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#navigation:hover {
+  background: var(--primary-bg);
 }
 
 .logo {
@@ -75,7 +79,7 @@ body::-webkit-scrollbar-thumb {
   height: 5rem;
   color: white;
   text-decoration: none;
-  transition: all 200ms ease;
+  transition: all 300ms linear;
   max-width: 5rem;
 }
 
