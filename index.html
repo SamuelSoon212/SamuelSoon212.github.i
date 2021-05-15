@@ -1,152 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Samuel Soon - Home</title>
-    <link rel="stylesheet" href="indexstyle.css" />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Playfair+Display&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Oswald&family=Source+Sans+Pro&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <nav class="navbar">
-      <ul class="navbar-nav">
-        <!-- LOGO -->
-        <li class="logo">
-          <h1 class="nav-link", id="navigation">
-            <span class="link-text">Navigation</span>
-            <svg
-              viewBox="0 0 16 16"
-              class="bi bi-arrow-right-circle"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
-              />
-              <path
-                fill-rule="evenodd"
-                d="M7.646 11.354a.5.5 0 0 1 0-.708L10.293 8 7.646 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0z"
-              />
-              <path
-                fill-rule="evenodd"
-                d="M4.5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5z"
-              />
-            </svg>
-          </h1>
-        </li>
-        <!-- HOME -->
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">
-            <svg
-              viewBox="0 0 16 16"
-              class="bi bi-house-door-fill"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"
-              />
-              <path
-                fill-rule="evenodd"
-                d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
-              />
-            </svg>
-            <span class="link-text">Home</span>
-          </a>
-        </li>
-        <!-- ABOUT -->
-        <li class="nav-item">
-          <a href="aboutpage.html" class="nav-link">
-            <svg
-              viewBox="0 0 16 16"
-              class="bi bi-info-circle-fill"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-              />
-            </svg>
-            <span class="link-text">About</span>
-          </a>
-        </li>
-        <!-- PROJECTS -->
-        <li class="nav-item">
-          <a href="projectspage.html" class="nav-link">
-            <svg
-              viewBox="0 0 16 16"
-              class="bi bi-cpu-fill"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5A1.5 1.5 0 0 0 5 6.5v3A1.5 1.5 0 0 0 6.5 11h3A1.5 1.5 0 0 0 11 9.5v-3A1.5 1.5 0 0 0 9.5 5h-3zm0 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"
-              />
-            </svg>
-            <span class="link-text">Projects</span>
-          </a>
-        </li>
-        <!-- CONTACT -->
-        <li class="nav-item">
-          <a href="contactpage.html" class="nav-link">
-            <svg
-              viewBox="0 0 16 16"
-              class="bi bi-person-lines-fill"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm7 1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm2 9a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"
-              />
-            </svg>
-            <span class="link-text">Contact</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <main>
-      <header>
-        <div class="page-banner">
-          <div class="header-text">
-            <h1>Samuel Soon</h1>
-            <h2>Computing Student</h2>
-          </div>
-          <div class="gradient-block"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samuel Soon - Home</title>
+  <link rel="stylesheet" href="indexstyle.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Playfair+Display&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Oswald&family=Source+Sans+Pro&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <!-- LOGO -->
+      <li class="logo">
+        <h1 class="nav-link" id="navigation">
+          <span class="link-text">Navigation</span>
+          <svg viewBox="0 0 16 16" class="bi bi-arrow-right-circle" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+            <path fill-rule="evenodd"
+              d="M7.646 11.354a.5.5 0 0 1 0-.708L10.293 8 7.646 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0z" />
+            <path fill-rule="evenodd" d="M4.5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5z" />
+          </svg>
+        </h1>
+      </li>
+      <!-- HOME -->
+      <li class="nav-item">
+        <a href="index.html" class="nav-link">
+          <svg viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z" />
+            <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+          </svg>
+          <span class="link-text">Home</span>
+        </a>
+      </li>
+      <!-- ABOUT -->
+      <li class="nav-item">
+        <a href="aboutpage.html" class="nav-link">
+          <svg viewBox="0 0 16 16" class="bi bi-info-circle-fill" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+          </svg>
+          <span class="link-text">About</span>
+        </a>
+      </li>
+      <!-- PROJECTS -->
+      <li class="nav-item">
+        <a href="projectspage.html" class="nav-link">
+          <svg viewBox="0 0 16 16" class="bi bi-cpu-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5A1.5 1.5 0 0 0 5 6.5v3A1.5 1.5 0 0 0 6.5 11h3A1.5 1.5 0 0 0 11 9.5v-3A1.5 1.5 0 0 0 9.5 5h-3zm0 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
+          </svg>
+          <span class="link-text">Projects</span>
+        </a>
+      </li>
+      <!-- CONTACT -->
+      <li class="nav-item">
+        <a href="contactpage.html" class="nav-link">
+          <svg viewBox="0 0 16 16" class="bi bi-person-lines-fill" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm7 1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm2 9a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z" />
+          </svg>
+          <span class="link-text">Contact</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <header>
+      <div class="page-banner">
+        <div class="header-text">
+          <h1>Samuel Soon</h1>
+          <h2>Computing Student</h2>
         </div>
-      </header>
-      <section class="home-about">
-        <div class="wrapper">
-          <img src="./images/me1.jpg" alt="" />
-          <div class="home-about-text1">
-            <hr class="small" />
-            <h2>Samuel Soon</h2>
-            <hr class="small" />
-            <h3>ACS (Barker Road)</h3>
-            <hr class="small" />
-            <p>
-              Hey there! I'm Samuel. I am currently a student in ACS (Barker
-              Road) in the class 4S3. I take Computing as one of my subjects,
-              and it is something that I have a deep interest in. This website
-              was actually coded entirely from scratch, and was something I had
-              learnt how to do from online courses. I hope you will find this
-              informative and get a greater insight into who I am as a person,
-              through my achievements and interests.
-            </p>
-          </div>
+        <div class="gradient-block"></div>
+      </div>
+    </header>
+    <section class="home-about">
+      <div class="wrapper">
+        <img src="./images/me1.jpg" alt="" />
+        <div class="home-about-text1">
+          <hr class="small" />
+          <h2>Samuel Soon</h2>
+          <hr class="small" />
+          <h3>ACS (Barker Road)</h3>
+          <hr class="small" />
+          <p>
+            Hey there! I'm Samuel. I am currently a student in ACS (Barker
+            Road) in the class 4S3. I take Computing as one of my subjects,
+            and it is something that I have a deep interest in. This website
+            was actually coded entirely from scratch, and was something I had
+            learnt how to do from online courses. I hope you will find this
+            informative and get a greater insight into who I am as a person,
+            through my achievements and interests.
+          </p>
         </div>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
